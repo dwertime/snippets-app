@@ -12,5 +12,12 @@ def put(name, snippet):
     logging.error("FIXME: Unimplemented - put({!r}, {!r})".format(name, snippet))
     return name, snippet
     
-#TESTING FOR GITHUB
-#TESTING FOR GIT PULL
+def get(name):
+    """Retrieve the snippet with a given name.
+
+    If there is no such snippet, return '404: Snippet Not Found'.
+
+    Returns the snippet.
+    """
+    logging.error("FIXME: Unimplemented - get({!r})".format(name))
+    return ""
